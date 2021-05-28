@@ -1,0 +1,91 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;  
+}
+.fas{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+small{
+    color: white;
+}
+
+.carousel-inner{
+    height: 650px;
+ }
+
+.carousel-item, img{
+     height: 100% !important;
+     width:  100% !important;
+     border-radius: 10px;
+ }
+ .carousel-caption span{
+     color: orange;
+ }
+#login {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	
+} 
+.login-wrap {
+    position: relative;
+    background: #fff h3;
+    background-font-weight: 300; 
+}
+.social-media {
+    position: relative;
+    width: 100%; 
+}
+.social-media .social-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    margin-right: 5px;
+    border-radius: 50%; 
+}
+.social-media .social-icon i {
+    color: #999999; 
+}
+.social-media .social-icon:hover, .social-media .social-icon:focus {
+    /*background-image: radial-gradient( circle 1258px at 66.9% 53%,  rgba(0,117,201,1) 0%, rgba(31,43,86,1) 79.4% );*/
+    background-image: linear-gradient( 76.5deg,  rgba(129,252,255,1) 0.4%, rgba(255,175,207,1) 49.8%, rgba(255,208,153,1) 98.6% );
+}
+.social-media .social-icon:hover i, .social-media .social-icon:focus i {
+    color: #fff; 
+}
+
+.form-group {
+    margin-bottom: 1rem; 
+}
+.form-group {
+    position: relative; 
+}
+.form-group .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 700; 
+}
+.form-group a {
+    color: gray; 
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem; }
+  
+button {
+    border-radius: 0; 
+    background-image: linear-gradient( 109.6deg,  rgba(177,173,219,1) 11.2%, rgba(245,226,226,1) 91.1% );
+}
+
+ 
